@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>가상 요소</title>
+        <style media="screen">
+            p:before{color:red; content:"before 가상 요소를 활용한 내용";}
+            p:after{color:blue; content:"after 가상 요소를 활용한 내용"}
+            p:first-line{color:gray;}
+            p::first-letter{font-size:3em;}
+        </style>
+    </head>
+    <body>
+        <p> HTML/CSS/JAVASCRIPT PRACTICE. PRACTICING IS FUN!</p>
+    </body>
+</html>
